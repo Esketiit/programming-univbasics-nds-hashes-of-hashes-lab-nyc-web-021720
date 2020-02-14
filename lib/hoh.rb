@@ -43,13 +43,14 @@ def naming_system
   # HoH all the way to Species!
   
   big_hash = {
-   label: "Kingdom",
-   sub_category: {
-     label: "Phylum",
-     sub_category: {
-       label: "Class"
-       sub_category: {
-         label: "Order"
+   :label => "Kingdom",
+   :sub_category => {
+     :label => "Phylum",
+     :sub_category => {
+       :label => "Class"
+       :sub_category => {
+         :label => "Order"
+         :sub_category => nil
        }
      }
    }
